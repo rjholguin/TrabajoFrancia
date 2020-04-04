@@ -9,6 +9,8 @@ using System.Windows.Forms;
 
 namespace Trabajo_Final_Francia.Clases
 {
+
+    //Clase que maneja la coneccion con la base de datos
     class ConeccionBD
     {
         string cadena = "Data Source = localhost\\SQLEXPRESS; Initial Catalog = Prueba; Integrated Security = true";
@@ -18,7 +20,7 @@ namespace Trabajo_Final_Francia.Clases
         {
             con.ConnectionString = cadena;
         }
-
+        //Metodo que abre la coneccion con la base de datos y valida los usuaios que se loguean
         public void abrirBD(string user, string pass)
         {
             try
@@ -61,7 +63,7 @@ namespace Trabajo_Final_Francia.Clases
                MessageBox.Show("Error al abrir la conexion" + e.Message);
             }
         }
-
+        //Metodo que cierra la coneccion con la base de datos
         public void cerrarBD() 
         {
             con.Close();

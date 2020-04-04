@@ -87,6 +87,8 @@ namespace Trabajo_Final_Francia
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+        
+        //Funcionalidad de Logeo
         Clases.ConeccionBD logear = new Clases.ConeccionBD();
 
         private void btnLogin_Click(object sender, EventArgs e)
