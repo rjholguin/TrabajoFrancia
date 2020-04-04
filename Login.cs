@@ -18,11 +18,13 @@ namespace Trabajo_Final_Francia
             InitializeComponent();
         }
 
+        //Codigo para hacer el drag a la ventana
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
+        //textbox de usuario
         private void txtUser_Enter(object sender, EventArgs e)
         {
             if(txtUser.Text == "USERNAME")
@@ -40,7 +42,7 @@ namespace Trabajo_Final_Francia
                 txtUser.ForeColor = Color.DimGray;
             }
         }
-
+        //textbox de contraseña
         private void txtPass_Enter(object sender, EventArgs e)
         {
             if (txtPass.Text == "PASSWORD")
@@ -60,17 +62,17 @@ namespace Trabajo_Final_Francia
                 txtPass.UseSystemPasswordChar = false;
             }
         }
-
+        //Boton para cerrar
         private void btnMin_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
+        //Boton para minimizar
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
+        //Codigo para hacer el drag a la ventana
         private void Login_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
