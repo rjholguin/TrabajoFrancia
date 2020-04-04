@@ -41,9 +41,14 @@ namespace Trabajo_Final_Francia.Clases
                         MessageBox.Show("Logeo Admin Exitoso");
                     }
 
-                    else if (dt.Rows[0][1].ToString() == "usuario")
+                    else if (dt.Rows[0][1].ToString() == "estudiante")
                     {
-                        MessageBox.Show("Logeo Usuario exitoso Exitoso");
+                        MessageBox.Show("Logeo Estudiante exitoso Exitoso");
+                    }
+
+                    else if (dt.Rows[0][1].ToString() == "profesor")
+                    {
+                        MessageBox.Show("Logeo Profesor exitoso Exitoso");
                     }
 
                     else
