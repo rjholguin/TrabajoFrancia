@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Data.SqlClient;
+
 
 namespace Trabajo_Final_Francia
 {
@@ -17,6 +19,7 @@ namespace Trabajo_Final_Francia
         {
             InitializeComponent();
         }
+       
 
         //Codigo para hacer el drag a la ventana
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -83,6 +86,14 @@ namespace Trabajo_Final_Francia
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+        Clases.ConeccionBD logear = new Clases.ConeccionBD();
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            logear.abrirBD(this.txtUser.Text, this.txtPass.Text);
+            logear.cerrarBD();
+            
         }
     }
 }

@@ -8,3 +8,13 @@ D:\Visual Studio\Consola\Trabajo Final Francia\obj\Debug\Trabajo Final Francia.c
 D:\Visual Studio\Consola\Trabajo Final Francia\obj\Debug\Trabajo Final Francia.csproj.CoreCompileInputs.cache
 D:\Visual Studio\Consola\Trabajo Final Francia\obj\Debug\Trabajo Final Francia.exe
 D:\Visual Studio\Consola\Trabajo Final Francia\obj\Debug\Trabajo Final Francia.pdb
+D:\Visual Studio\Git\Trabajo Final Francia\bin\Debug\Trabajo Final Francia.exe.config
+D:\Visual Studio\Git\Trabajo Final Francia\bin\Debug\Trabajo Final Francia.exe
+D:\Visual Studio\Git\Trabajo Final Francia\bin\Debug\Trabajo Final Francia.pdb
+D:\Visual Studio\Git\Trabajo Final Francia\obj\Debug\Trabajo Final Francia.csprojAssemblyReference.cache
+D:\Visual Studio\Git\Trabajo Final Francia\obj\Debug\Trabajo_Final_Francia.Login.resources
+D:\Visual Studio\Git\Trabajo Final Francia\obj\Debug\Trabajo_Final_Francia.Properties.Resources.resources
+D:\Visual Studio\Git\Trabajo Final Francia\obj\Debug\Trabajo Final Francia.csproj.GenerateResource.cache
+D:\Visual Studio\Git\Trabajo Final Francia\obj\Debug\Trabajo Final Francia.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Git\Trabajo Final Francia\obj\Debug\Trabajo Final Francia.exe
+D:\Visual Studio\Git\Trabajo Final Francia\obj\Debug\Trabajo Final Francia.pdb
